@@ -6,7 +6,9 @@ Install all dependencies via terminal:
 sudo apt-get install -y python3-pip python3-dev gpac
 sudo python3 -m pip install --upgrade pip setuptools wheel
 sudo apt install -y python3-pip python3-opencv python3-matplotlib python3-numpy python3-picamera python3-RPI.GPIO python3-libgpiod
-sudo pip3 install -y imutils adafruit-circuitpython-dht
+sudo pip3 install imutils adafruit-circuitpython-dht
+sudo apt upgrade -y
+sudo apt update
 
 Dependencies list:
 Dev
