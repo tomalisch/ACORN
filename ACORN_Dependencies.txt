@@ -1,0 +1,48 @@
+
+ACORN Python Dependencies
+
+Install all dependencies via terminal:
+
+sudo apt-get install -y python3-pip python3-dev gpac
+sudo python3 -m pip install --upgrade pip setuptools wheel
+sudo apt install -y python3-pip python3-opencv python3-matplotlib python3-numpy python3-picamera python3-RPI.GPIO python3-libgpiod
+sudo pip3 install -y imutils adafruit-circuitpython-dht
+
+Dependencies list:
+Dev
+Sudo apt-get install python3-dev
+
+PIP
+sudo apt-get install python3-pip
+
+CV2
+sudo apt install python3-opencv
+
+Matplotlib & Numpy
+sudo apt install python3-matplotlib 
+
+Numpy
+sudo apt install python3-numpy
+
+Picamera
+sudo apt install python3-picamera
+
+RPI.GPIO
+sudo apt install python3-RPI.GPIO
+
+Imutils
+sudo pip3 install imutils
+
+DHT
+sudo pip3 install --install-option="--force-pi" Adafruit_DHT
+or
+sudo pip3 install adafruit-circuitpython-dht
+
+libgpiod
+sudo apt install python3-libgpiod
+
+MP4 Box
+sudo apt-get install -y gpac
+
+
+
