@@ -64,7 +64,7 @@ camera.brightness = 60
 
 # Cycle through servo angles in 5 degree intervals
 
-for GEangle in range(0, 180, 5)
+for GEangle in range(0, 180, 5):
 
 	SetAngle(p, GEangle)
 	time.sleep(0.5)
@@ -79,7 +79,7 @@ for GEangle in range(0, 180, 5)
 ## End loop
 
 # Stop camera
-time.sleep(10)
+time.sleep(1)
 camera.stop_preview()
 camera.close()
 
